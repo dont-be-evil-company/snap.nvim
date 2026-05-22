@@ -5,7 +5,6 @@
 # Snap.nvim
 
 [![Made with love][badge-made-with-love]][contributors]
-[![Development status][badge-development-status]][development-status]
 [![Our manifesto][badge-our-manifesto]][our-manifesto]
 ![Made with lua][badge-made-with-lua]
 [![Latest release][badge-latest-release]][latest-release]
@@ -78,8 +77,8 @@ See: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
-  'mistweaverco/snap.nvim',
-  version = 'v1.5.0',
+  'dont-be-evil-company/snap.nvim',
+  version = 'v2.0.0',
   cmd = "Snap",
   ---@type SnapUserConfig
   opts = {},
@@ -96,8 +95,8 @@ See: [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 use {
-  'mistweaverco/snap.nvim',
-  tag = 'v1.5.0',
+  'dont-be-evil-company/snap.nvim',
+  tag = 'v2.0.0',
   config = function()
 
     ---@type SnapUserConfig
@@ -115,8 +114,8 @@ use {
 
 ```lua
 vim.pack.add({
-  src = 'https://github.com/mistweaverco/snap.nvim.git',
-  version = 'v1.5.0',
+  src = 'https://github.com/dont-be-evil-company/snap.nvim.git',
+  version = 'v2.0.0',
 })
 ---@type SnapUserConfig
 local cfg = {}
@@ -247,8 +246,8 @@ This would then translate to the following `font_settings`:
 
 ```lua
 return {
-  "mistweaverco/snap.nvim",
-  version = 'v1.5.0',
+  "dont-be-evil-company/snap.nvim",
+  version = 'v2.0.0',
   ---@type SnapUserConfig
   opts = {
     template = "linux",
@@ -387,8 +386,8 @@ by running `bun install` in the plugin directory.
 
 ```lua
 {
-  'mistweaverco/snap.nvim',
-  version = 'v1.5.0',
+  'dont-be-evil-company/snap.nvim',
+  version = 'v2.0.0',
   opts = {
     timeout = 5000, -- Timeout for screenshot command in milliseconds
     log_level = "error", -- Log level for debugging (e.g., "trace", "debug", "info", "warn", "error", "off")
@@ -491,9 +490,8 @@ copy the HTML representation to the clipboard.
 [badge-development-status]: assets/badge-development-status.svg
 [badge-our-manifesto]: assets/badge-our-manifesto.svg
 [badge-made-with-love]: assets/badge-made-with-love.svg
-[our-manifesto]: https://mistweaverco.com/manifesto
-[development-status]: https://github.com/orgs/mistweaverco/projects/5/views/1?filterQuery=repo%3Amistweaverco%2Fsnap.nvim
-[contributors]: https://github.com/mistweaverco/snap.nvim/graphs/contributors
+[our-manifesto]: https://the-dont-be-evil-company.com/manifesto
+[contributors]: https://github.com/dont-be-evil-company/snap.nvim/graphs/contributors
 [logo]: assets/logo.svg
-[badge-latest-release]: https://img.shields.io/github/v/release/mistweaverco/snap.nvim?style=for-the-badge
-[latest-release]: https://github.com/mistweaverco/snap.nvim/releases/latest
+[badge-latest-release]: https://img.shields.io/github/v/release/dont-be-evil-company/snap.nvim?style=for-the-badge
+[latest-release]: https://github.com/dont-be-evil-company/snap.nvim/releases/latest

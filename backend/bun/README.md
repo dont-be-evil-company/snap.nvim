@@ -1,7 +1,7 @@
 # Snap.nvim backend
 
 This is the backend cli tool for
-[Snap.nvim](https://github.com/mistweaverco/snap.nvim)
+[Snap.nvim](https://github.com/dont-be-evil-company/snap.nvim)
 
 To install dependencies:
 

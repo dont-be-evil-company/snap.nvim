@@ -86,7 +86,7 @@
 			<h1 class="text-5xl font-bold">Get involved ❤️</h1>
 			<p class="py-6">Snap.nvim is open-source and we welcome contributions.</p>
 			<p>
-				View the <a class="text-secondary" href="https://github.com/mistweaverco/snap.nvim">code.</a>
+				View the <a class="text-secondary" href="https://github.com/dont-be-evil-company/snap.nvim">code.</a>
 			</p>
 		</div>
 	</div>
